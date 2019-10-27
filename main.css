@@ -598,12 +598,12 @@ body {
 .news .news-content h1{
 	position: relative;
 	font-size: 26px;
-	color:#fff;
+	color:#000;
 }
 .news .news-content h1::before{
 	content: "";
     display: block;
-    background: #fff;
+    background: #e0393b;
     position: absolute;
     width: 70px;
     height: 2px;
@@ -617,7 +617,7 @@ body {
 .news .news-content h1::after{
 	content: "";
     display: block;
-    background: #fff;
+    background: #e0393b;
     position: absolute;
     width: 70px;
     height: 2px;
