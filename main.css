@@ -13,6 +13,17 @@ body {
 .section{
 	padding: 60px 0;
 }
+.testo{
+
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 5px;
+	display: none;
+	
+}
+.testo.act{
+	display: block;
+}
 
 /*--------------------End Global---------------*/
 
@@ -645,7 +656,10 @@ body {
 }
 .news-details .new-title h1{
 	font-size: 20px;
+}
+.news-details .new-title h1 a{
 	color:#E0393B;
+	text-decoration: none;
 }
 .news-details .new-title p{
 	font-size: 13px;
@@ -664,7 +678,7 @@ body {
     font-size: 15px;
 	color: #E0393B;
 	text-decoration: none;
-	
+	font-weight: bold;
 	transition: all .5s ease-in-out;
 }
 .news .more-news .more:hover{
@@ -806,6 +820,19 @@ body {
 	color:#E0393B;
 
 }
+.testo{
+
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 5px;
+	display: none;
+	margin-bottom: 20px;
+	
+}
+.testo.act{
+	display: block;
+}
+
 /*-----------------End Ask---------------*/
 
 
@@ -900,6 +927,10 @@ body {
     margin-left: 15px;
     border-radius: 50%;
 	font-size: 20px;
+	color:#fff;
+	cursor: pointer;
+}
+.footer .social ul li a{
 	color:#fff;
 }
 
@@ -1037,7 +1068,10 @@ body {
 .new-detail .n-info .n-content .n-header{
 	font-size: 23px;
 	font-weight: bold;
+}
+.new-detail .n-info .n-content .n-header a{
 	color: #e0393b;
+	text-decoration: none;
 }
 .new-detail .n-info .n-content ul li{
 	display: inline-block;
